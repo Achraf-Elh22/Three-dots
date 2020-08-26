@@ -7,3 +7,46 @@
 body {
   font-family: 'Poppins', sans-serif;
 }
+/* Header */
+header {
+  display: flex;
+  align-items: center;
+  width: 90%;
+  height: 10vh;
+  margin: auto;
+}
+
+.logo-container,
+.nav-links,
+.cart {
+  display: flex;
+}
+
+.logo {
+  font-weight: 400;
+  margin: 5px;
+}
+
+.logo-container {
+  flex: 1;
+}
+
+nav {
+  flex: 2;
+}
+
+.nav-links {
+  justify-content: space-around;
+  list-style: none;
+}
+
+.nav-link {
+  font-size: 18px;
+  color: #5f5f97;
+  text-decoration: none;
+}
+
+.cart {
+  flex: 1;
+  justify-content: flex-end;
+}
